@@ -17,17 +17,17 @@ class UserState(StatesGroup):
 
 @router.message(Command("start"))
 async def start_bot(msg: Message, state: FSMContext):
-    await state.set_state(UserState.start_state)
-    
+    await msg.answer(text="Введите ваш вопрос ❤️")
+    await state.set_state(UserState.answer_state)
 
 
-@router.callback_query(UserState.start_state)
+@router.callback_query(F.data == "start")
 async def handle_start_button(callback: types.CallbackQuery, state: FSMContext):
     await callback.message.answer(text="Введите ваш вопрос ❤️")
     await state.set_state(UserState.answer_state)
     await callback.answer()
     
-@router.message(UserState.start_state, F.text)
+@router.message(UserState.start_state)
 async def handle_start_button(msg: Message, state: FSMContext):
     await msg.answer(text="Введите ваш вопрос ❤️")
     await state.set_state(UserState.answer_state)
@@ -37,9 +37,17 @@ async def handle_start_button(msg: Message, state: FSMContext):
 @router.message(UserState.answer_state, F.text)
 async def generate_answer(msg: Message, state: FSMContext):
     # ans = your_function(msg.text) 
-    await msg.answer(f"answer")
+    
     await state.set_state(UserState.start_state)
-
+    
+    another_builder = InlineKeyboardBuilder()
+    another_builder.add(types.InlineKeyboardButton(
+        text="Начать заново",
+        callback_data="start"
+    ))
+    await msg.answer(f"answer")
+    
+    await msg.answer("Нажмите на кнопку, чтобы начать заново", reply_markup=another_builder.as_markup())
 
 
 
