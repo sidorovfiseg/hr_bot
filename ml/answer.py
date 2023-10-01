@@ -21,7 +21,7 @@ def find_top_similar_tensors(input_tensor, tensor_array, k = 5):
 
 def get_answer(question, chapter):
 
-    with open('..\promt.txt', encoding='utf-8') as f:
+    with open('promt.txt', encoding='utf-8') as f:
         promt = f.read()
         promt = promt.format(chapter, question)
 

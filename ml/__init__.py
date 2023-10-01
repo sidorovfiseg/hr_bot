@@ -24,9 +24,9 @@ print('Загрузка данных')
 text_data = []
 embeds_data = []
 
-if os.path.exists('../text.pkl') and os.path.exists('../embeds.pkl'):
+if os.path.exists('./text.pkl') and os.path.exists('./embeds.pkl'):
     print('Успешно')
-    with open('../text.pkl', 'rb') as f:
+    with open('./text.pkl', 'rb') as f:
         text_data = pickle.load(f)
-    with open('../embeds.pkl', 'rb') as f:
+    with open('./embeds.pkl', 'rb') as f:
         embeds_data = pickle.load(f)

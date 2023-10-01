@@ -50,22 +50,24 @@ async def handle_start_button(msg: Message, state: FSMContext):
 @router.message(UserState.answer_state, F.text)
 async def generate_answer(msg: Message, state: FSMContext):
     
+    gen_msg = await msg.answer(
+        "Подождите немного, я генерирую ответ... 🕐"
+    )
+    
     ans = get_c(msg.text) 
-    ans.replace("</s>", "").replace("<s>", "").replace("</unk>", "").replace("<unk>", "").\
+    ans = ans.replace("</s>", "").replace("<s>", "").replace("</unk>", "").replace("<unk>", "").\
             replace("</n>", "").replace("<n>", "")
     splitted_text = split_text(ans)
     
     await state.set_state(UserState.start_state)
     
-    gen_msg = await msg.answer(
-        "Подождите немного, я генерирую ответ... 🕐"
-    )
     
-    await gen_msg.edit_text(f"<h1>Ответ: <h1>")
+    
+    await gen_msg.edit_text("Ответ: ")
     for i in range(len(splitted_text)):
         await msg.answer(f"{splitted_text[i]}")
     
-    await msg.answer("Нажмите на кнопку, чтобы начать заново или попробуйте задать похожий вопрос", reply_markup=restart_kb)
+    await msg.answer("Нажмите на кнопку, чтобы начать заново или вернуться в меню", reply_markup=restart_kb)
 
 
 

@@ -6,9 +6,9 @@ restart = [
                                    callback_data="restart")
     ], 
     [
-        types.InlineKeyboardButton(text="Выбрать похожий вопрос ", 
-                                   callback_data="similar_quest")
-    ]
+        types.InlineKeyboardButton(text="Вернуться в меню ⤴️",
+                                   callback_data="return")
+    ], 
 ]
 
 restart_kb = types.InlineKeyboardMarkup(
