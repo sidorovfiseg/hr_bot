@@ -14,3 +14,11 @@ conda activate hr_bot
 ```
 pip install -r requirements.txt
 ```
+Ссылка на screencast - 
+```
+https://drive.google.com/file/d/1-r7eGjnZ9TE3D5mu3WpSCUtpb_5zOwYs/view?usp=sharing
+```
+Ссылка на тг бота - 
+```
+https://t.me/smart_ndd_bot
+```
