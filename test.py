@@ -1,33 +1,34 @@
-import torch
-from peft import PeftModel, PeftConfig
-from transformers import AutoModelForCausalLM, AutoTokenizer, GenerationConfig, AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
+import pickle
+from markdown_it import MarkdownIt
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, GenerationConfig
+import numpy as np
 
-MODEL_NAME = "IlyaGusev/saiga2_70b_lora"
-DEFAULT_MESSAGE_TEMPLATE = "<s>{role}\n{content}</s>\n"
-DEFAULT_SYSTEM_PROMPT = "Ты — Сайга, русскоязычный автоматический ассистент. Ты разговариваешь с людьми и помогаешь им."
+model_name = "IlyaGusev/fred_t5_ru_turbo_alpaca"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForSeq2SeqLM.from_pretrained(model_name).to("cuda")
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-version = torch.__version__
-print(version)
-print(device)
+model.eval()
 
 
-'''
-tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, use_fast=False)
-generation_config = GenerationConfig.from_pretrained(MODEL_NAME)
-print(generation_config)
 
-inputs = ["Почему трава зеленая?", "Сочини длинный рассказ, обязательно упоминая следующие объекты. Дано: Таня, мяч"]
-for inp in inputs:
-    conversation = Conversation()
-    conversation.add_user_message(inp)
-    prompt = conversation.get_prompt(tokenizer)
 
-    output = generate(model, tokenizer, prompt, generation_config)
-    print(inp)
-    print(output)
-    print()
-    print("==============================")
-    print()
 
-'''
+
+
+inputs = process_chapters(file)
+
+a = "Задача - сгенерировать пять независимых вопросов на которые отвечает следующий контекст."
+b = ""
+introduction = f"{a}\n{b}"
+
+for str in inputs:
+    final_text = query_message(introduction, str)
+    data = tokenizer(final_text, return_tensors="pt")
+    data = {k: v.to(model.device) for k, v in data.items()}
+    output_ids = model.generate(
+        **data,
+        generation_config=generation_config
+    )[0]
+
+    print("====================")
+    print(tokenizer.decode(output_ids.tolist(), skip_special_tokens=True))
