@@ -1,6 +1,9 @@
 from pydantic import SecretStr
 from pydantic_settings import BaseSettings
 
+
+# конфиг для чтения токена
+
 class Settings(BaseSettings):
     bot_token: SecretStr
     

@@ -1,0 +1,13 @@
+[2023.09.30 22:31:04] Launched version: 4010002, install beta: [FALSE], alpha: 0, debug mode: [FALSE]
+[2023.09.30 22:31:04] Executable dir: C:/Users/hajru/AppData/Roaming/Telegram Desktop/, name: Telegram.exe
+[2023.09.30 22:31:04] Initial working dir: C:/Users/hajru/AppData/Roaming/Telegram Desktop/
+[2023.09.30 22:31:04] Working dir: C:/Users/hajru/AppData/Roaming/Telegram Desktop/
+[2023.09.30 22:31:04] Command line: C:\Users\hajru\AppData\Roaming\Telegram Desktop\Telegram.exe
+[2023.09.30 22:31:04] Executable path before check: C:/Users/hajru/AppData/Roaming/Telegram Desktop/Telegram.exe
+[2023.09.30 22:31:04] Logs started
+[2023.09.30 22:31:04] App Info: Shortcut validated at "C:/Users/hajru/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Telegram Desktop/Telegram.lnk"
+[2023.09.30 22:31:04] AppUserModelID: Telegram.TelegramDesktop
+[2023.09.30 22:31:04] Connecting local socket to Global\ab309a6a3d0766469e6258673d09796f-{87A94AB0-E370-4cde-98D3-ACC110C5967D}...
+[2023.09.30 22:31:04] Socket connected, this is not the first application instance, sending show command...
+[2023.09.30 22:31:04] Show command written, waiting response...
+[2023.09.30 22:31:04] Show command response received, processId = 16156, windowId = 394474, activating and quitting...

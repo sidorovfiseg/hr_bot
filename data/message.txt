@@ -1,0 +1,207 @@
+import heapq
+
+import pandas as pd
+import torch
+from transformers import (
+    TokenClassificationPipeline,
+    AutoModelForTokenClassification,
+    AutoTokenizer,
+)
+from transformers.pipelines import AggregationStrategy
+from sentence_transformers import SentenceTransformer
+import numpy as np
+from sentence_transformers import util
+
+
+from ml.get_chapters import get_chapters
+from ml.utils.split import split_text
+import ml.config
+
+import time
+
+# TODO убрать бесполезный код, сделать более подробно, переименовать функцию
+# Это код, чтобы загрузить табличку с данными патентов в датафрейм. Я ее конвертировал в csv ( она весит где-то 1.7гб) и подсасывал так.
+# Specify the metadata path
+# (You can alternatively provide the local metadata path)
+# _METADATA_PATH = "https://huggingface.co/datasets/HUPD/hupd/resolve/main/hupd_metadata_2022-02-22.feather"
+# Read the feather
+# df = pd.read_feather(_METADATA_PATH)
+##
+
+debug_mode = True
+
+def measure_time(func):
+    def wrapper(*args, **kwargs):
+        start_time = time.time()
+        result = func(*args, **kwargs)
+        end_time = time.time()
+        execution_time = end_time - start_time
+        if debug_mode :
+            print(f"Время выполнения функции {func.__name__}: {execution_time:.6f} секунд")
+        return result
+    return wrapper
+
+@measure_time
+def load_data_from_csvt(csv_path):  # грузим дату
+    count = 231527605
+    df = pd.read_csv(csv_path, nrows = count//20)
+    return df
+
+
+@measure_time
+def filter_patents_by_keywords(df, rubrics, interest_keywords):
+    # функция находит в патентах по ключевым словам и рубрикам мпк ( по дефолту стоят рубрики для биотеха) первоначальнуую табличку.
+    # Оно иногда не рабоатет, так как других рубрик по мпк я не знаю и если тема не про биотех, то соответсвенно не находит.
+    # Это наверное надо пофиксить, чтобы можно было отключать дефолтные рубрики
+    # по моему выдает, если есть хотя бы 1 ключевое слово, потому что иначе вообще по нулям может быть
+    # собственно задача придумать как это можно сделать лучше. Либо больше самих патентов, чтобы точно было через парсинг гугл патентов
+    # либо еще что-то
+    #print(interest_keywords)
+    filtered_df = df[df['ipcr_labels'].notna() & df['ipcr_labels'].str.contains('|'.join(rubrics))]
+
+    filtered_df['invention_title'].fillna('', inplace=True)
+
+    def filter_by_keywords(row):
+        title = row['invention_title']
+        return any(keyword.lower() in title.lower() for keyword in interest_keywords)
+
+    #filtered_df = filtered_df[filtered_df.apply(filter_by_keywords, axis=1)]
+    #print(filtered_df.shape[0])
+    return filtered_df
+
+# класс, который возвращает ключевые слова из предложения. Нормально работает на английском. Заточен под научные всякие приколы
+class KeyphraseExtractionPipeline(TokenClassificationPipeline):
+    def __init__(self, model, *args, **kwargs):
+        super().__init__(
+            model=AutoModelForTokenClassification.from_pretrained(model),
+            tokenizer=AutoTokenizer.from_pretrained(model),
+            *args,
+            **kwargs
+        )
+
+    def postprocess(self, all_outputs):
+        results = super().postprocess(
+            all_outputs=all_outputs,
+
+            aggregation_strategy=AggregationStrategy.SIMPLE,
+        )
+        return np.unique([result.get("word").strip() for result in results])
+
+
+def str_to_tensor(csv_string):
+    data_str = csv_string.replace('tensor([', '').replace("], device='cuda:0')", '')
+
+    data_list = data_str.split(',')
+
+    data = [float(val) for val in data_list]
+
+    tensor = torch.tensor(data)
+
+    return tensor
+
+
+@measure_time
+def get_top(df_with_embeddings, new_sentence_embedding):
+    top_15 = []
+
+    for i in range(len(df_with_embeddings)):
+        tens = str_to_tensor(df_with_embeddings.iloc[i]['embeddings'])
+        hits = util.semantic_search(tens, new_sentence_embedding)
+        similarity = hits[0][0]['score'] if hits else 0
+
+        if len(top_15) < 15:
+            heapq.heappush(top_15, (similarity, i))
+        else:
+            heapq.heappushpop(top_15, (similarity, i))
+
+    top_15_indices = [i for _, i in heapq.nlargest(15, top_15)]
+    res = df_with_embeddings.iloc[top_15_indices]
+    print(res)
+    return res
+
+@measure_time
+def main_func(rubrics, phrase):
+
+    model_name = ml.config.model_name
+    extractor = KeyphraseExtractionPipeline(model=model_name)  # вызов класса
+    #CSV_PATH = ml.config.CSV_PATH  #"ml/data/huggingface_data.csv"
+    df = ml.config.df  # загружаем модель
+    rubrics = [item for sublist in rubrics for item in sublist.split(',')]
+    text = phrase
+    keyphrases = extractor(text)  # получаем ключевые слова
+    filtered_df = filter_patents_by_keywords(df, rubrics, keyphrases)
+
+    # получаем первичный датафрейм. Надо придумать как улучшить
+    ##print(filtered_df[['invention_title', 'earliest_pgpub_number']])
+
+    # Загрузка модели кодировщика. Это для эмбедингов
+    model = SentenceTransformer('AI-Growth-Lab/PatentSBERTa')
+    df_with_embeddings = filtered_df.copy()
+    df_with_embeddings = df_with_embeddings.reset_index(drop=True)  # Переиндексация датафрейма
+    df_with_embeddings["id"] = df_with_embeddings.index
+
+   ## print(df_with_embeddings[['invention_title', 'earliest_pgpub_number']])
+
+    # Пример предложения
+    new_sentence = text # fds
+
+    # Преобразование предложения в эмбеддинги
+    new_sentence_embedding = model.encode(
+        [new_sentence], convert_to_tensor=True)
+
+    result_df = pd.DataFrame(
+        columns=['invention_title', 'earliest_pgpub_number', 'cosine_similarity'])
+
+    result_df = get_top(df_with_embeddings, new_sentence_embedding)
+
+
+    # Сортировка по уровню косинусного сравнения в порядке убывания
+    #result_df = result_df.sort_values(by='cosine_similarity', ascending=False)
+    result_df.reset_index(drop=True, inplace=True)
+    return (result_df)
+
+
+def fucking_preprocess_N_1488(sumarizations, patents_titles):
+    final_final_final_array_of_strings_with_all_shit = ''
+    for i, j in zip(sumarizations, patents_titles):
+        final_final_final_array_of_strings_with_all_shit += "Patent_title : " + j + '\n'
+        for z in i:
+            if (z[0] and z[1]):
+                final_final_final_array_of_strings_with_all_shit += z[0] + z[1] + '\n'
+
+    return split_text(final_final_final_array_of_strings_with_all_shit)
+def get_result(rubrics: str, phrases: str) -> list:
+    top_size = 2
+    sumarizations = []
+    patents_titles = []
+    result_df = main_func(rubrics=l, phrase=s)
+    for i in range(0, top_size):
+        base_url = 'https://patents.google.com/patent/'
+        patent_number = result_df.loc[i, 'earliest_pgpub_number']
+        patents_titles.append(result_df.loc[i, 'invention_title'])
+        print("PN ---->>> ", patent_number)
+        new_url = base_url + patent_number
+        sumarizations.append(get_chapters(new_url))
+    return fucking_preprocess_N_1488(sumarizations, patents_titles)
+
+
+
+
+if __name__ == "__main__":
+
+    def f():
+        l = ['G05D100', 'C12N', 'C12P', 'C07K', 'A61K', 'A01H', 'G16B', 'G06F']
+        s = "Stable expression of polymorphous forms of human cytochrome p450 2d6".lower()
+        top_size = 2
+        sumarizations = []
+        patents_titles = []
+        result_df = main_func(rubrics = l, phrase = s)
+        for i in range(0, top_size):
+            base_url = 'https://patents.google.com/patent/'
+            patent_number = result_df.loc[i, 'earliest_pgpub_number']
+            patents_titles.append(result_df.loc[i, 'invention_title'])
+            print("PN ---->>> ", patent_number)
+            new_url = base_url + patent_number
+            sumarizations.append(get_chapters(new_url))
+
+        return fucking_preprocess_N_1488(sumarizations, patents_titles)

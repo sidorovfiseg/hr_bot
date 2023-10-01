@@ -1,0 +1,531 @@
+[2023.09.30 14:08:12] Launched version: 4010002, install beta: [FALSE], alpha: 0, debug mode: [FALSE]
+[2023.09.30 14:08:12] Executable dir: C:/Users/hajru/AppData/Roaming/Telegram Desktop/, name: Telegram.exe
+[2023.09.30 14:08:12] Initial working dir: C:/Users/hajru/AppData/Roaming/Telegram Desktop/
+[2023.09.30 14:08:12] Working dir: C:/Users/hajru/AppData/Roaming/Telegram Desktop/
+[2023.09.30 14:08:12] Command line: C:\Users\hajru\AppData\Roaming\Telegram Desktop\Telegram.exe
+[2023.09.30 14:08:12] Executable path before check: C:/Users/hajru/AppData/Roaming/Telegram Desktop/Telegram.exe
+[2023.09.30 14:08:12] Logs started
+[2023.09.30 14:08:12] App Info: Shortcut validated at "C:/Users/hajru/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Telegram Desktop/Telegram.lnk"
+[2023.09.30 14:08:12] AppUserModelID: Telegram.TelegramDesktop
+[2023.09.30 14:08:12] Connecting local socket to Global\ab309a6a3d0766469e6258673d09796f-{87A94AB0-E370-4cde-98D3-ACC110C5967D}...
+[2023.09.30 14:08:12] This is the only instance of Telegram, starting server and app...
+[2023.09.30 14:08:12] Moved logging from 'C:/Users/hajru/AppData/Roaming/Telegram Desktop/log_start0.txt' to 'C:/Users/hajru/AppData/Roaming/Telegram Desktop/log.txt'!
+[2023.09.30 14:08:12] Opened 'C:/Users/hajru/AppData/Roaming/Telegram Desktop/tdata/working' for reading, the previous Telegram Desktop launch was not finished properly :( Crash log size: 0
+[2023.09.30 14:08:12] Global devicePixelRatio: 1
+[2023.09.30 14:08:12] QT_DPI_ADJUSTMENT_POLICY: AdjustDpi
+[2023.09.30 14:08:12] Primary screen DPI: 96, Base: 96.
+[2023.09.30 14:08:12] Computed screen scale: 100
+[2023.09.30 14:08:12] DevicePixelRatio: 1
+[2023.09.30 14:08:12] ScreenScale: 100
+[2023.09.30 14:08:12] Font: from ':/gui/fonts/DAOpenSansRegular.ttf' loaded 'DAOpenSansRegular'
+[2023.09.30 14:08:12] Font: from ':/gui/fonts/DAVazirRegular.ttf' loaded 'DAVazirRegular'
+[2023.09.30 14:08:12] Font: from ':/gui/fonts/DAOpenSansRegularItalic.ttf' loaded 'DAOpenSansRegularItalic'
+[2023.09.30 14:08:12] Font: from ':/gui/fonts/DAVazirRegular.ttf' loaded 'DAVazirRegular'
+[2023.09.30 14:08:12] Font: from ':/gui/fonts/DAOpenSansSemiboldAsBold.ttf' loaded 'DAOpenSansSemibold'
+[2023.09.30 14:08:12] Font: from ':/gui/fonts/DAVazirMediumAsBold.ttf' loaded 'DAVazirMedium'
+[2023.09.30 14:08:12] Font: from ':/gui/fonts/DAOpenSansSemiboldItalicAsBold.ttf' loaded 'DAOpenSansSemiboldItalic'
+[2023.09.30 14:08:12] Font: from ':/gui/fonts/DAVazirMediumAsBold.ttf' loaded 'DAVazirMedium'
+[2023.09.30 14:08:12] Font: from ':/gui/fonts/DAOpenSansSemiboldAsBold.ttf' loaded 'DAOpenSansSemibold'
+[2023.09.30 14:08:12] Font: from ':/gui/fonts/DAVazirMediumAsBold.ttf' loaded 'DAVazirMedium'
+[2023.09.30 14:08:12] Font: from ':/gui/fonts/DAOpenSansSemiboldItalicAsBold.ttf' loaded 'DAOpenSansSemiboldItalic'
+[2023.09.30 14:08:12] Font: from ':/gui/fonts/DAVazirMediumAsBold.ttf' loaded 'DAVazirMedium'
+[2023.09.30 14:08:12] Using DirectX compiler 'C:\Users\hajru\AppData\Roaming\Telegram Desktop\modules\x64\d3d\d3dcompiler_47.dll'.
+[2023.09.30 14:08:12] App Info: reading settings...
+[2023.09.30 14:08:12] App Info: reading encrypted settings...
+[2023.09.30 14:08:12] Lang Info: Loaded cached, keys: 5391
+[2023.09.30 14:08:12] OpenAL Logging Level: (not set)
+[2023.09.30 14:08:12] Audio Playback Devices: OpenAL Soft on Динамики (High Definition Audio Device);OpenAL Soft on Цифровое аудио (S/PDIF) (High Definition Audio Device)
+[2023.09.30 14:08:12] Audio Playback Default Device: OpenAL Soft on Динамики (High Definition Audio Device)
+[2023.09.30 14:08:12] Audio Capture Devices: OpenAL Soft on Микрофон (WO Mic Device)
+[2023.09.30 14:08:12] Audio Capture Default Device: OpenAL Soft on Микрофон (WO Mic Device)
+[2023.09.30 14:08:12] App Info: reading accounts info...
+[2023.09.30 14:08:12] App Info: reading encrypted info...
+[2023.09.30 14:08:12] App Info: reading map...
+[2023.09.30 14:08:12] App Info: reading encrypted map...
+[2023.09.30 14:08:12] App Info: reading encrypted user settings...
+[2023.09.30 14:08:12] App Info: encrypted user settings read.
+[2023.09.30 14:08:12] App Info: reading encrypted mtp data...
+[2023.09.30 14:08:12] MTP Info: read keys, current: 4, to destroy: 0
+[2023.09.30 14:08:12] Map read time: 8
+[2023.09.30 14:08:12] App Info: reading encrypted mtp config...
+[2023.09.30 14:08:12] App Info: reading map...
+[2023.09.30 14:08:12] App Info: reading encrypted map...
+[2023.09.30 14:08:12] App Info: reading encrypted user settings...
+[2023.09.30 14:08:12] App Info: encrypted user settings read.
+[2023.09.30 14:08:12] App Info: reading encrypted mtp data...
+[2023.09.30 14:08:12] MTP Info: read keys, current: 4, to destroy: 0
+[2023.09.30 14:08:12] Map read time: 8
+[2023.09.30 14:08:12] App Info: reading encrypted mtp config...
+[2023.09.30 14:08:13] Export Info: Destroy top bar by controller removal.
+[2023.09.30 14:08:13] OpenGL: Using custom 'gpu_driver_bug_list.json'.
+[2023.09.30 14:08:13] OpenGL Profile: OpenGLES.
+[2023.09.30 14:08:13] OpenGL Renderer: ANGLE (NVIDIA, NVIDIA GeForce RTX 3060 Direct3D11 vs_5_0 ps_5_0, D3D11-31.0.15.3742)
+[2023.09.30 14:08:13] OpenGL Vendor: Google Inc. (NVIDIA)
+[2023.09.30 14:08:13] OpenGL Version: OpenGL ES 3.0.0 (ANGLE 2.1.10 git hash: e3f59e8d0c3e)
+[2023.09.30 14:08:13] OpenGL Extensions: GL_CHROMIUM_sync_query, GL_OES_EGL_image, GL_EXT_multisampled_render_to_texture, GL_ANGLE_memory_size, GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture, GL_OES_compressed_ETC2_sRGB8_texture, GL_OES_texture_stencil8, GL_NV_pack_subimage, GL_OES_texture_half_float, GL_OVR_multiview, GL_EXT_conservative_depth, GL_EXT_draw_buffers, GL_NV_pixel_buffer_object, GL_EXT_frag_depth, GL_ANGLE_texture_compression_dxt3, GL_ANGLE_lossy_etc_decode, GL_ANGLE_multi_draw, GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture, GL_OES_surfaceless_context, GL_ANGLE_instanced_arrays, GL_NV_framebuffer_blit, GL_ANGLE_renderability_validation, GL_OES_draw_elements_base_vertex, GL_APPLE_clip_distance, GL_ANGLE_base_vertex_base_instance_shader_builtin, GL_OES_texture_float_linear, GL_EXT_discard_framebuffer, GL_EXT_texture_compression_rgtc, GL_OES_compressed_EAC_RG11_unsigned_texture, GL_OES_texture_npot, GL_ANGLE_program_cache_control, GL_EXT_sRGB, GL_ANGLE_robust_client_memory, GL_EXT_debug_marker, GL_EXT_multi_draw_indirect, GL_OES_compressed_ETC2_sRGB8_alpha8_texture, GL_EXT_texture_type_2_10_10_10_REV, GL_OES_sample_variables, GL_EXT_instanced_arrays, GL_ANGLE_base_vertex_base_instance, GL_NV_EGL_stream_consumer_external, GL_OES_compressed_EAC_R11_signed_texture, GL_OES_compressed_ETC2_RGB8_texture, GL_OES_compressed_EAC_RG11_signed_texture, GL_ANGLE_get_tex_level_parameter, GL_OES_mapbuffer, GL_CHROMIUM_bind_generates_resource, GL_EXT_clip_control, GL_EXT_robustness, GL_EXT_texture_format_BGRA8888, GL_OES_EGL_image_external, GL_EXT_draw_buffers_indexed, GL_EXT_texture_storage, GL_OES_texture_half_float_linear, GL_CHROMIUM_lose_context, GL_EXT_texture_border_clamp, GL_OES_standard_derivatives, GL_EXT_texture_compression_s3tc_srgb, GL_OES_vertex_array_object, GL_ANGLE_clip_cull_distance, GL_EXT_texture_compression_bptc, GL_OES_draw_buffers_indexed, GL_EXT_debug_label, GL_EXT_texture_mirror_clamp_to_edge, GL_CHROMIUM_copy_texture, GL_EXT_texture_rg, GL_ANGLE_framebuffer_multisample, GL_OES_depth32, GL_OES_shader_multisample_interpolation, GL_ANGLE_get_serialized_context_string, GL_ANGLE_texture_usage, GL_OES_element_index_uint, GL_EXT_float_blend, GL_EXT_polygon_offset_clamp, GL_EXT_texture_norm16, GL_ANGLE_provoking_vertex, GL_ANGLE_polygon_mode, GL_ANGLE_translated_shader_source, GL_ANGLE_texture_multisample, GL_EXT_texture_filter_anisotropic, GL_OES_depth24, GL_EXT_texture_compression_dxt1, GL_KHR_debug, GL_NV_shader_noperspective_interpolation, GL_EXT_color_buffer_half_float, GL_OES_get_program_binary, GL_ANGLE_texture_compression_dxt5, GL_EXT_disjoint_timer_query, GL_EXT_occlusion_query_boolean, GL_ANGLE_client_arrays, GL_ANGLE_shader_pixel_local_storage_coherent, GL_EXT_color_buffer_float, GL_OES_compressed_EAC_R11_unsigned_texture, GL_CHROMIUM_copy_compressed_texture, GL_KHR_parallel_shader_compile, GL_NV_fence, GL_EXT_clip_cull_distance, GL_EXT_unpack_subimage, GL_ANGLE_framebuffer_blit, GL_ANGLE_pack_reverse_row_order, GL_EXT_blend_func_extended, GL_OES_texture_border_clamp, GL_ANGLE_request_extension, GL_EXT_read_format_bgra, GL_ANGLE_copy_texture_3d, GL_EXT_map_buffer_range, GL_OES_packed_depth_stencil, GL_OES_rgb8_rgba8, GL_OES_compressed_ETC2_RGBA8_texture, GL_ANGLE_stencil_texturing, GL_ANGLE_shader_pixel_local_storage, GL_WEBGL_video_texture, GL_OES_fbo_render_mipmap, GL_OVR_multiview2, , GL_EXT_EGL_image_external_wrap_modes, GL_EXT_depth_clamp, GL_ANGLE_multiview_multisample, GL_EXT_draw_elements_base_vertex, GL_EXT_shader_texture_lod, GL_ANGLE_depth_texture, GL_EXT_render_snorm, GL_EXT_blend_minmax, GL_OES_texture_float, GL_OES_EGL_image_external_essl3, GL_AMD_performance_monitor, GL_CHROMIUM_bind_uniform_location, GL_EXT_base_instance
+[2023.09.30 14:08:13] EGL Extensions: EGL_EXT_create_context_robustness, EGL_ANGLE_d3d_share_handle_client_buffer, EGL_ANGLE_d3d_texture_client_buffer, EGL_ANGLE_surface_d3d_texture_2d_share_handle, EGL_ANGLE_query_surface_pointer, EGL_ANGLE_window_fixed_size, EGL_ANGLE_keyed_mutex, EGL_ANGLE_surface_orientation, EGL_ANGLE_direct_composition, EGL_ANGLE_windows_ui_composition, EGL_NV_post_sub_buffer, EGL_KHR_create_context, EGL_KHR_image, EGL_KHR_image_base, EGL_KHR_gl_texture_2D_image, EGL_KHR_gl_texture_cubemap_image, EGL_KHR_gl_renderbuffer_image, EGL_KHR_get_all_proc_addresses, EGL_KHR_stream, EGL_KHR_stream_consumer_gltexture, EGL_NV_stream_consumer_gltexture_yuv, EGL_ANGLE_stream_producer_d3d_texture, EGL_ANGLE_create_context_webgl_compatibility, EGL_CHROMIUM_create_context_bind_generates_resource, EGL_CHROMIUM_sync_control, EGL_EXT_pixel_format_float, EGL_KHR_surfaceless_context, EGL_ANGLE_display_texture_share_group, EGL_ANGLE_display_semaphore_share_group, EGL_ANGLE_create_context_client_arrays, EGL_ANGLE_program_cache_control, EGL_ANGLE_robust_resource_initialization, EGL_ANGLE_create_context_extensions_enabled, EGL_ANDROID_blob_cache, EGL_ANDROID_recordable, EGL_ANGLE_image_d3d11_texture, EGL_ANGLE_create_context_backwards_compatible, EGL_KHR_no_config_context, EGL_KHR_create_context_no_error, EGL_KHR_reusable_sync, 
+[2023.09.30 14:08:13] OpenGL: QOpenGLContext created, version: 3.3.
+[2023.09.30 14:08:13] OpenGL: [TRUE] (Window)
+[2023.09.30 14:08:14] Message Info: bad message notification received (error_code 33) for msg_id = 7284574181355193624, seq_no = 60
+[2023.09.30 14:08:14] Message Info: bad message notification received, msgId 7284574181355193624, error_code 33
+[2023.09.30 14:08:14] Message Info: bad message notification received (error_code 33) for msg_id = 7284574181053988696, seq_no = 42
+[2023.09.30 14:08:14] Message Info: bad message notification received, msgId 7284574181053988696, error_code 33
+[2023.09.30 14:08:14] API Warning: not loaded minimal channel applied.
+[2023.09.30 14:08:25] Skipping message, because it is already in blocks!
+[2023.09.30 14:08:34] Skipping message, because it is already in blocks!
+[2023.09.30 14:09:12] Skipping message, because it is already in blocks!
+[2023.09.30 14:09:52] Skipping message, because it is already in blocks!
+[2023.09.30 14:10:35] Skipping message, because it is already in blocks!
+[2023.09.30 14:10:55] Skipping message, because it is already in blocks!
+[2023.09.30 14:16:40] Skipping message, because it is already in blocks!
+[2023.09.30 14:18:13] Skipping message, because it is already in blocks!
+[2023.09.30 14:20:08] Skipping message, because it is already in blocks!
+[2023.09.30 14:20:31] Skipping message, because it is already in blocks!
+[2023.09.30 14:23:14] Skipping message, because it is already in blocks!
+[2023.09.30 14:25:48] Skipping message, because it is already in blocks!
+[2023.09.30 14:30:04] Skipping message, because it is already in blocks!
+[2023.09.30 14:35:03] Skipping message, because it is already in blocks!
+[2023.09.30 14:35:26] Skipping message, because it is already in blocks!
+[2023.09.30 14:37:29] Skipping message, because it is already in blocks!
+[2023.09.30 14:37:43] Skipping message, because it is already in blocks!
+[2023.09.30 14:38:30] Skipping message, because it is already in blocks!
+[2023.09.30 14:42:25] Skipping message, because it is already in blocks!
+[2023.09.30 14:45:08] Skipping message, because it is already in blocks!
+[2023.09.30 14:45:28] Skipping message, because it is already in blocks!
+[2023.09.30 14:53:03] Skipping message, because it is already in blocks!
+[2023.09.30 14:53:12] Skipping message, because it is already in blocks!
+[2023.09.30 14:53:20] Skipping message, because it is already in blocks!
+[2023.09.30 14:53:32] Skipping message, because it is already in blocks!
+[2023.09.30 14:57:39] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 14:57:41] Audio Info: Closing audio playback device.
+[2023.09.30 14:57:43] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 14:57:45] Audio Info: Closing audio playback device.
+[2023.09.30 15:01:13] API Warning: not loaded minimal channel applied.
+[2023.09.30 15:08:54] Skipping message, because it is already in blocks!
+[2023.09.30 15:10:04] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:10:05] Skipping message, because it is already in blocks!
+[2023.09.30 15:10:06] Audio Info: Closing audio playback device.
+[2023.09.30 15:10:51] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:10:53] Audio Info: Closing audio playback device.
+[2023.09.30 15:11:35] Skipping message, because it is already in blocks!
+[2023.09.30 15:11:56] Skipping message, because it is already in blocks!
+[2023.09.30 15:14:27] RPC Error: request 699 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 15:14:27] RPC Error: request 702 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 15:14:27] RPC Error: request 703 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 15:14:27] RPC Error: request 700 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 15:14:27] RPC Error: request 697 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 15:14:27] RPC Error: request 706 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 15:14:27] RPC Error: request 705 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 15:14:27] RPC Error: request 696 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 15:14:28] RPC Error: request 701 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 15:14:28] RPC Error: request 698 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 15:14:28] RPC Error: request 704 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 15:14:28] RPC Error: request 707 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 15:14:28] App Info: writing encrypted user settings...
+[2023.09.30 15:14:28] RPC Error: request 693 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 15:14:28] RPC Error: request 691 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 15:14:28] RPC Error: request 692 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 15:15:47] Skipping message, because it is already in blocks!
+[2023.09.30 15:15:59] Skipping message, because it is already in blocks!
+[2023.09.30 15:16:04] Skipping message, because it is already in blocks!
+[2023.09.30 15:16:15] Skipping message, because it is already in blocks!
+[2023.09.30 15:17:33] Skipping message, because it is already in blocks!
+[2023.09.30 15:23:28] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:23:30] Audio Info: Closing audio playback device.
+[2023.09.30 15:29:03] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:29:05] Audio Info: Closing audio playback device.
+[2023.09.30 15:29:22] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:29:24] Audio Info: Closing audio playback device.
+[2023.09.30 15:29:50] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:29:51] Audio Info: Closing audio playback device.
+[2023.09.30 15:30:08] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:30:10] Audio Info: Closing audio playback device.
+[2023.09.30 15:30:11] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:30:13] Audio Info: Closing audio playback device.
+[2023.09.30 15:30:13] Skipping message, because it is already in blocks!
+[2023.09.30 15:30:17] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:30:19] Audio Info: Closing audio playback device.
+[2023.09.30 15:30:26] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:30:28] Audio Info: Closing audio playback device.
+[2023.09.30 15:30:38] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:30:40] Audio Info: Closing audio playback device.
+[2023.09.30 15:30:41] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:30:43] Audio Info: Closing audio playback device.
+[2023.09.30 15:30:56] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:30:58] Audio Info: Closing audio playback device.
+[2023.09.30 15:31:10] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:31:12] Audio Info: Closing audio playback device.
+[2023.09.30 15:31:24] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:31:26] Audio Info: Closing audio playback device.
+[2023.09.30 15:31:26] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:31:28] Audio Info: Closing audio playback device.
+[2023.09.30 15:32:54] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:32:56] Audio Info: Closing audio playback device.
+[2023.09.30 15:33:49] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:33:52] Audio Info: Closing audio playback device.
+[2023.09.30 15:34:13] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:34:15] Audio Info: Closing audio playback device.
+[2023.09.30 15:34:38] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:34:40] Audio Info: Closing audio playback device.
+[2023.09.30 15:34:46] RPC Error: request 1376 got fail with code 400, error PEER_ID_INVALID
+[2023.09.30 15:34:46] RPC Error: request 1384 got fail with code 400, error PEER_ID_INVALID
+[2023.09.30 15:36:54] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:36:56] Audio Info: Closing audio playback device.
+[2023.09.30 15:38:13] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:38:15] Audio Info: Closing audio playback device.
+[2023.09.30 15:38:28] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:38:30] Audio Info: Closing audio playback device.
+[2023.09.30 15:39:37] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:39:39] Audio Info: Closing audio playback device.
+[2023.09.30 15:39:52] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:39:54] Audio Info: Closing audio playback device.
+[2023.09.30 15:41:04] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:41:06] Audio Info: Closing audio playback device.
+[2023.09.30 15:41:38] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:41:40] Audio Info: Closing audio playback device.
+[2023.09.30 15:42:02] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:42:06] Audio Info: Closing audio playback device.
+[2023.09.30 15:42:50] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:42:52] Audio Info: Closing audio playback device.
+[2023.09.30 15:42:57] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:42:59] Audio Info: Closing audio playback device.
+[2023.09.30 15:43:03] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:43:05] Audio Info: Closing audio playback device.
+[2023.09.30 15:46:54] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 15:46:56] Audio Info: Closing audio playback device.
+[2023.09.30 15:59:50] RPC Error: request 1574 got fail with code 400, error PEER_ID_INVALID
+[2023.09.30 16:03:11] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 16:03:13] Audio Info: Closing audio playback device.
+[2023.09.30 16:32:22] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 16:32:24] Audio Info: Closing audio playback device.
+[2023.09.30 16:34:31] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2023.09.30 16:34:31] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2023.09.30 16:34:33] Skipping message, because it is already in blocks!
+[2023.09.30 16:35:35] Skipping message, because it is already in blocks!
+[2023.09.30 16:37:02] Skipping message, because it is already in blocks!
+[2023.09.30 16:37:27] Skipping message, because it is already in blocks!
+[2023.09.30 16:44:59] Skipping message, because it is already in blocks!
+[2023.09.30 16:45:04] Skipping message, because it is already in blocks!
+[2023.09.30 16:49:09] Skipping message, because it is already in blocks!
+[2023.09.30 16:49:11] Skipping message, because it is already in blocks!
+[2023.09.30 16:53:54] Skipping message, because it is already in blocks!
+[2023.09.30 16:53:57] Skipping message, because it is already in blocks!
+[2023.09.30 16:54:01] Skipping message, because it is already in blocks!
+[2023.09.30 16:59:07] API Warning: not loaded minimal channel applied.
+[2023.09.30 17:01:56] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 17:01:58] Audio Info: Closing audio playback device.
+[2023.09.30 17:15:32] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 17:15:34] Audio Info: Closing audio playback device.
+[2023.09.30 17:18:49] Audio Info: OnDeviceStateChanged("{0.0.0.00000000}.{278db34f-97ef-446f-a1a0-873711e31a6e}", 4) scheduling detach from audio device.
+[2023.09.30 17:18:50] Audio Info: OnDeviceStateChanged("{0.0.0.00000000}.{278db34f-97ef-446f-a1a0-873711e31a6e}", 4) scheduling detach from audio device.
+[2023.09.30 17:18:50] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{d9d475df-e3ec-4538-9f77-38cf9b37f282}", 4) scheduling detach from audio device.
+[2023.09.30 17:18:50] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{d9d475df-e3ec-4538-9f77-38cf9b37f282}", 4) scheduling detach from audio device.
+[2023.09.30 17:18:50] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{d9d475df-e3ec-4538-9f77-38cf9b37f282}", 1) scheduling detach from audio device.
+[2023.09.30 17:18:50] Audio Info: OnPropertyValueChanged("{0.0.1.00000000}.{d9d475df-e3ec-4538-9f77-38cf9b37f282}", "{F19F064D-082C-4E27-BC73-6882A1BB8E4C} 0") scheduling detach from audio device.
+[2023.09.30 17:18:50] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{8049ad9c-6fa4-422e-a25b-766a65ead7e7}", 4) scheduling detach from audio device.
+[2023.09.30 17:18:50] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{8049ad9c-6fa4-422e-a25b-766a65ead7e7}", 4) scheduling detach from audio device.
+[2023.09.30 17:18:50] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{8049ad9c-6fa4-422e-a25b-766a65ead7e7}", 4) scheduling detach from audio device.
+[2023.09.30 17:18:50] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{8049ad9c-6fa4-422e-a25b-766a65ead7e7}", 2) scheduling detach from audio device.
+[2023.09.30 17:18:50] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{1bebd161-abc9-4da5-b538-55ae768fab4c}", 4) scheduling detach from audio device.
+[2023.09.30 17:18:50] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{1bebd161-abc9-4da5-b538-55ae768fab4c}", 4) scheduling detach from audio device.
+[2023.09.30 17:18:50] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{1bebd161-abc9-4da5-b538-55ae768fab4c}", 4) scheduling detach from audio device.
+[2023.09.30 17:18:50] Audio Info: OnDeviceStateChanged("{0.0.0.00000000}.{8992ea9c-dbac-49bb-a1ad-227a98c1ea72}", 4) scheduling detach from audio device.
+[2023.09.30 17:18:50] Audio Info: OnDeviceStateChanged("{0.0.0.00000000}.{8992ea9c-dbac-49bb-a1ad-227a98c1ea72}", 4) scheduling detach from audio device.
+[2023.09.30 17:18:50] Audio Info: OnDeviceStateChanged("{0.0.0.00000000}.{8992ea9c-dbac-49bb-a1ad-227a98c1ea72}", 4) scheduling detach from audio device.
+[2023.09.30 17:18:50] Audio Info: OnDeviceStateChanged("{0.0.0.00000000}.{8992ea9c-dbac-49bb-a1ad-227a98c1ea72}", 2) scheduling detach from audio device.
+[2023.09.30 17:43:53] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 17:43:55] Audio Info: Closing audio playback device.
+[2023.09.30 17:45:16] RPC Error: request 1872 got fail with code 400, error PEER_ID_INVALID
+[2023.09.30 18:34:51] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 18:34:53] Audio Info: Closing audio playback device.
+[2023.09.30 18:45:37] Message Info: bad message notification received (error_code 33) for msg_id = 7284645666545194684, seq_no = 1300
+[2023.09.30 18:45:37] Message Info: bad message notification received, msgId 7284645666545194684, error_code 33
+[2023.09.30 18:49:46] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 18:49:48] Audio Info: Closing audio playback device.
+[2023.09.30 18:59:28] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 18:59:30] Audio Info: Closing audio playback device.
+[2023.09.30 18:59:31] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 18:59:33] Audio Info: Closing audio playback device.
+[2023.09.30 18:59:51] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 18:59:53] Audio Info: Closing audio playback device.
+[2023.09.30 19:00:13] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 19:00:13] OpenGL: [TRUE] (Window)
+[2023.09.30 19:02:03] API Warning: not loaded minimal channel applied.
+[2023.09.30 19:56:10] Audio Info: Closing audio playback device.
+[2023.09.30 20:16:23] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 20:16:25] Audio Info: Closing audio playback device.
+[2023.09.30 20:33:20] RPC Error: request 2162 got fail with code 400, error PEER_ID_INVALID
+[2023.09.30 21:16:51] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 21:16:53] Audio Info: Closing audio playback device.
+[2023.09.30 21:28:20] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 21:28:22] Audio Info: Closing audio playback device.
+[2023.09.30 22:31:14] Skipping message, because it is already in blocks!
+[2023.09.30 22:31:58] Audio Info: OnPropertyValueChanged("{0.0.1.00000000}.{d9d475df-e3ec-4538-9f77-38cf9b37f282}", "{E4870E26-3CC5-4CD2-BA46-CA0A9A70ED04} 0") scheduling detach from audio device.
+[2023.09.30 22:31:58] Audio Info: OnPropertyValueChanged("{0.0.1.00000000}.{d9d475df-e3ec-4538-9f77-38cf9b37f282}", "{E4870E26-3CC5-4CD2-BA46-CA0A9A70ED04} 1") scheduling detach from audio device.
+[2023.09.30 22:31:58] Audio Info: OnPropertyValueChanged("{0.0.1.00000000}.{d9d475df-e3ec-4538-9f77-38cf9b37f282}", "{E4870E26-3CC5-4CD2-BA46-CA0A9A70ED04} 1") scheduling detach from audio device.
+[2023.09.30 22:37:38] API Warning: not loaded minimal channel applied.
+[2023.09.30 22:38:09] Skipping message, because it is already in blocks!
+[2023.09.30 22:42:37] Skipping message, because it is already in blocks!
+[2023.09.30 22:43:52] RPC Error: request 2431 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:43:52] RPC Error: request 2430 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:44:16] Skipping message, because it is already in blocks!
+[2023.09.30 22:46:21] Skipping message, because it is already in blocks!
+[2023.09.30 22:49:07] Skipping message, because it is already in blocks!
+[2023.09.30 22:49:56] App Error: Can't read history till unknown local message.
+[2023.09.30 22:49:56] App Error: Can't read history till unknown local message.
+[2023.09.30 22:49:56] App Error: Can't read history till unknown local message.
+[2023.09.30 22:49:56] App Error: Can't read history till unknown local message.
+[2023.09.30 22:49:56] App Error: Can't read history till unknown local message.
+[2023.09.30 22:49:56] App Error: Can't read history till unknown local message.
+[2023.09.30 22:49:56] App Error: Can't read history till unknown local message.
+[2023.09.30 22:49:56] App Error: Can't read history till unknown local message.
+[2023.09.30 22:49:56] App Error: Can't read history till unknown local message.
+[2023.09.30 22:49:56] App Error: Can't read history till unknown local message.
+[2023.09.30 22:49:56] App Error: Can't read history till unknown local message.
+[2023.09.30 22:49:56] App Error: Can't read history till unknown local message.
+[2023.09.30 22:49:56] App Error: Can't read history till unknown local message.
+[2023.09.30 22:49:56] App Error: Can't read history till unknown local message.
+[2023.09.30 22:49:56] App Error: Can't read history till unknown local message.
+[2023.09.30 22:49:56] App Error: Can't read history till unknown local message.
+[2023.09.30 22:49:56] App Error: Can't read history till unknown local message.
+[2023.09.30 22:49:56] Skipping message, because it is already in blocks!
+[2023.09.30 22:51:45] RPC Error: request 2499 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:45] RPC Error: request 2500 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:45] RPC Error: request 2501 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:45] RPC Error: request 2498 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:45] RPC Error: request 2503 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:45] RPC Error: request 2502 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:46] RPC Error: request 2505 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:46] RPC Error: request 2506 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:46] RPC Error: request 2504 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:46] RPC Error: request 2508 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:46] RPC Error: request 2507 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:48] RPC Error: request 2510 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:48] RPC Error: request 2512 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:48] RPC Error: request 2511 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:48] RPC Error: request 2509 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:48] RPC Error: request 2514 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:48] RPC Error: request 2516 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:48] RPC Error: request 2517 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:48] RPC Error: request 2515 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:49] RPC Error: request 2519 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:49] RPC Error: request 2521 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:49] RPC Error: request 2520 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:49] RPC Error: request 2523 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:49] RPC Error: request 2522 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:51:49] RPC Error: request 2518 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 22:52:54] Skipping message, because it is already in blocks!
+[2023.09.30 22:53:28] Skipping message, because it is already in blocks!
+[2023.09.30 22:53:38] Message Info: bad message notification received (error_code 33) for msg_id = 7284709584751576708, seq_no = 206
+[2023.09.30 22:53:38] Message Info: bad message notification received, msgId 7284709584751576708, error_code 33
+[2023.09.30 22:55:03] Skipping message, because it is already in blocks!
+[2023.09.30 22:55:03] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 22:55:05] Audio Info: Closing audio playback device.
+[2023.09.30 22:55:23] Skipping message, because it is already in blocks!
+[2023.09.30 22:55:23] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 22:55:25] Audio Info: Closing audio playback device.
+[2023.09.30 23:09:44] RPC Error: request 3100 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:09:44] RPC Error: request 3099 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:09:53] RPC Error: request 3119 got fail with code 400, error PEER_ID_INVALID
+[2023.09.30 23:09:53] RPC Error: request 3128 got fail with code 400, error PEER_ID_INVALID
+[2023.09.30 23:10:42] RPC Error: request 3155 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:10:42] RPC Error: request 3157 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:10:57] API Warning: not loaded minimal channel applied.
+[2023.09.30 23:11:51] RPC Error: request 3295 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:12:08] RPC Error: request 3375 got fail with code 400, error PEER_ID_INVALID
+[2023.09.30 23:12:08] RPC Error: request 3384 got fail with code 400, error PEER_ID_INVALID
+[2023.09.30 23:13:56] RPC Error: request 3518 got fail with code 400, error PEER_ID_INVALID
+[2023.09.30 23:16:11] RPC Error: request 3693 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:17:25] RPC Error: request 3895 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:17:50] RPC Error: request 3978 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:18:11] RPC Error: request 4011 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:18:41] RPC Error: request 4159 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4167 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4151 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4155 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4171 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4161 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4158 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4162 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4166 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4178 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4150 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4169 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4153 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4170 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4163 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4154 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4149 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4157 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4165 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4173 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4172 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4164 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4156 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4168 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4152 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:18:41] RPC Error: request 4160 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2023.09.30 23:19:00] RPC Error: request 4226 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:20:29] RPC Error: request 4397 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:20:29] RPC Error: request 4396 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:20:29] RPC Error: request 4394 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:20:29] RPC Error: request 4391 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:20:29] RPC Error: request 4395 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:20:29] RPC Error: request 4392 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:20:29] RPC Error: request 4393 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:20:29] RPC Error: request 4398 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:20:38] RPC Error: request 4469 got fail with code 400, error PEER_ID_INVALID
+[2023.09.30 23:20:38] RPC Error: request 4478 got fail with code 400, error PEER_ID_INVALID
+[2023.09.30 23:20:48] RPC Error: request 4521 got fail with code 400, error PEER_ID_INVALID
+[2023.09.30 23:20:48] RPC Error: request 4530 got fail with code 400, error PEER_ID_INVALID
+[2023.09.30 23:20:48] Message Info: bad message notification received (error_code 33) for msg_id = 7284716585120601288, seq_no = 6582
+[2023.09.30 23:20:48] Message Info: bad message notification received, msgId 7284716585120601288, error_code 33
+[2023.09.30 23:20:48] Message Info: bad message notification received (error_code 33) for msg_id = 7284716585393328892, seq_no = 11
+[2023.09.30 23:20:48] Message Info: bad message notification received, msgId 7284716585393328892, error_code 33
+[2023.09.30 23:20:53] RPC Error: request 4613 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:20:53] RPC Error: request 4610 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:20:53] RPC Error: request 4615 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:20:53] RPC Error: request 4611 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:20:53] RPC Error: request 4612 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:20:53] RPC Error: request 4614 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:20:53] RPC Error: request 4616 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:20:53] RPC Error: request 4617 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:21:02] RPC Error: request 4731 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:21:02] RPC Error: request 4732 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:21:02] Streaming Error: Error in avformat_open_input (code: -1094995529, text: Invalid data found when processing input).
+[2023.09.30 23:21:25] RPC Error: request 4846 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:21:25] RPC Error: request 4845 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:21:25] RPC Error: request 4840 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:21:25] RPC Error: request 4844 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:21:25] RPC Error: request 4842 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:21:25] RPC Error: request 4841 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:21:25] RPC Error: request 4843 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:21:25] RPC Error: request 4847 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:21:25] API Warning: not loaded minimal channel applied.
+[2023.09.30 23:21:43] RPC Error: request 4964 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:21:43] RPC Error: request 4963 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:21:43] RPC Error: request 4958 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:21:43] RPC Error: request 4962 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:21:43] RPC Error: request 4960 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:21:43] RPC Error: request 4961 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:21:43] RPC Error: request 4965 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:21:43] RPC Error: request 4959 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:21:49] RPC Error: request 4996 got fail with code 400, error PEER_ID_INVALID
+[2023.09.30 23:21:57] Skipping message, because it is already in blocks!
+[2023.09.30 23:22:19] RPC Error: request 5034 got fail with code 400, error PEER_ID_INVALID
+[2023.09.30 23:22:28] RPC Error: request 5087 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:22:28] RPC Error: request 5091 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2023.09.30 23:22:37] Skipping message, because it is already in blocks!
+[2023.09.30 23:25:03] Error: could not locate 'background.jpg' in a zip file.
+[2023.09.30 23:25:22] Error: could not locate 'background.jpg' in a zip file.
+[2023.09.30 23:25:24] Error: could not locate 'background.jpg' in a zip file.
+[2023.09.30 23:25:25] Error: could not locate 'background.jpg' in a zip file.
+[2023.09.30 23:25:25] Error: could not locate 'background.jpg' in a zip file.
+[2023.09.30 23:25:26] Error: could not locate 'background.jpg' in a zip file.
+[2023.09.30 23:25:27] Error: could not locate 'background.jpg' in a zip file.
+[2023.09.30 23:25:27] Error: could not locate 'background.jpg' in a zip file.
+[2023.09.30 23:25:31] Error: could not locate 'background.jpg' in a zip file.
+[2023.09.30 23:25:32] Error: could not locate 'background.jpg' in a zip file.
+[2023.09.30 23:25:33] Theme Warning: Skipping value 'mediaviewSaveMsgBg: toastBg' (expected a color value in #rrggbb or #rrggbbaa or a previously defined key in the color scheme)
+[2023.09.30 23:25:33] Theme Warning: Skipping value 'mediaviewSaveMsgFg: toastFg' (expected a color value in #rrggbb or #rrggbbaa or a previously defined key in the color scheme)
+[2023.09.30 23:25:33] Error: could not locate 'background.jpg' in a zip file.
+[2023.09.30 23:25:34] Error: could not locate 'background.jpg' in a zip file.
+[2023.09.30 23:36:54] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 23:36:56] Audio Info: Closing audio playback device.
+[2023.09.30 23:37:15] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 23:37:17] Audio Info: Closing audio playback device.
+[2023.09.30 23:38:00] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 23:38:02] Audio Info: Closing audio playback device.
+[2023.09.30 23:40:24] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 23:40:26] Audio Info: Closing audio playback device.
+[2023.09.30 23:41:25] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 23:41:27] Audio Info: Closing audio playback device.
+[2023.09.30 23:44:37] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 23:44:39] Audio Info: Closing audio playback device.
+[2023.09.30 23:56:18] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 23:56:19] Audio Info: Closing audio playback device.
+[2023.09.30 23:59:50] Audio Info: recreating audio device and reattaching the tracks
+[2023.09.30 23:59:52] Audio Info: Closing audio playback device.
+[2023.10.01 00:04:05] Audio Info: recreating audio device and reattaching the tracks
+[2023.10.01 00:04:07] Audio Info: Closing audio playback device.
+[2023.10.01 00:04:33] Audio Info: recreating audio device and reattaching the tracks
+[2023.10.01 00:04:35] Audio Info: Closing audio playback device.
+[2023.10.01 00:04:37] Audio Info: recreating audio device and reattaching the tracks
+[2023.10.01 00:04:39] Audio Info: Closing audio playback device.
+[2023.10.01 00:04:49] Audio Info: recreating audio device and reattaching the tracks
+[2023.10.01 00:04:51] Audio Info: Closing audio playback device.
+[2023.10.01 00:04:54] Audio Info: recreating audio device and reattaching the tracks
+[2023.10.01 00:04:56] Audio Info: Closing audio playback device.
+[2023.10.01 00:05:04] Audio Info: recreating audio device and reattaching the tracks
+[2023.10.01 00:05:06] Audio Info: Closing audio playback device.
+[2023.10.01 00:05:48] Audio Info: recreating audio device and reattaching the tracks
+[2023.10.01 00:05:50] Audio Info: Closing audio playback device.
+[2023.10.01 00:06:41] Audio Info: recreating audio device and reattaching the tracks
+[2023.10.01 00:06:43] Audio Info: Closing audio playback device.
+[2023.10.01 00:08:06] Audio Info: recreating audio device and reattaching the tracks
+[2023.10.01 00:08:08] Audio Info: Closing audio playback device.
+[2023.10.01 00:08:56] RPC Error: request 5202 got fail with code 400, error PEER_ID_INVALID
+[2023.10.01 00:19:48] Skipping message, because it is already in blocks!
+[2023.10.01 00:19:52] Skipping message, because it is already in blocks!
+[2023.10.01 00:25:05] Skipping message, because it is already in blocks!
+[2023.10.01 00:25:08] Skipping message, because it is already in blocks!
+[2023.10.01 00:27:09] Skipping message, because it is already in blocks!
+[2023.10.01 00:27:12] Skipping message, because it is already in blocks!
+[2023.10.01 00:27:28] RPC Error: request 5320 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 00:55:25] Skipping message, because it is already in blocks!
+[2023.10.01 00:56:06] Skipping message, because it is already in blocks!
+[2023.10.01 00:59:46] Skipping message, because it is already in blocks!
+[2023.10.01 00:59:50] Skipping message, because it is already in blocks!
+[2023.10.01 01:26:43] Skipping message, because it is already in blocks!
+[2023.10.01 02:07:48] Skipping message, because it is already in blocks!
+[2023.10.01 02:09:21] Skipping message, because it is already in blocks!
+[2023.10.01 02:10:44] Skipping message, because it is already in blocks!
+[2023.10.01 02:21:35] Skipping message, because it is already in blocks!
+[2023.10.01 02:21:56] RPC Error: request 5476 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:23:03] RPC Error: request 5479 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:23:04] RPC Error: request 5480 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:25:56] Skipping message, because it is already in blocks!
+[2023.10.01 02:26:12] RPC Error: request 5487 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:26:17] RPC Error: request 5488 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:28:13] Skipping message, because it is already in blocks!
+[2023.10.01 02:28:26] RPC Error: request 5494 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:29:10] Skipping message, because it is already in blocks!
+[2023.10.01 02:29:26] RPC Error: request 5501 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:29:31] RPC Error: request 5502 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:29:58] RPC Error: request 5505 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:31:12] Skipping message, because it is already in blocks!
+[2023.10.01 02:31:40] RPC Error: request 5520 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:32:01] Skipping message, because it is already in blocks!
+[2023.10.01 02:32:25] RPC Error: request 5531 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:32:48] RPC Error: request 5532 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:32:50] RPC Error: request 5533 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:35:19] Skipping message, because it is already in blocks!
+[2023.10.01 02:35:35] RPC Error: request 5538 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:36:22] Skipping message, because it is already in blocks!
+[2023.10.01 02:36:38] RPC Error: request 5545 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:37:26] RPC Error: request 5548 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:37:58] Skipping message, because it is already in blocks!
+[2023.10.01 02:38:16] RPC Error: request 5553 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:38:29] Skipping message, because it is already in blocks!
+[2023.10.01 02:38:45] RPC Error: request 5558 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:39:35] RPC Error: request 5563 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:40:06] Skipping message, because it is already in blocks!
+[2023.10.01 02:40:22] RPC Error: request 5568 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:41:42] Skipping message, because it is already in blocks!
+[2023.10.01 02:41:50] RPC Error: request 5571 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:41:58] RPC Error: request 5574 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:42:00] RPC Error: request 5575 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:44:06] Skipping message, because it is already in blocks!
+[2023.10.01 02:44:22] RPC Error: request 5583 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:44:23] RPC Error: request 5584 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:44:33] Skipping message, because it is already in blocks!
+[2023.10.01 02:44:46] RPC Error: request 5587 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:44:49] RPC Error: request 5590 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:45:03] Skipping message, because it is already in blocks!
+[2023.10.01 02:45:20] RPC Error: request 5595 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:47:58] RPC Error: request 5598 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:48:18] RPC Error: request 5599 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2023.10.01 02:48:38] Skipping message, because it is already in blocks!
+[2023.10.01 02:49:10] Skipping message, because it is already in blocks!
+[2023.10.01 02:49:21] Skipping message, because it is already in blocks!
+[2023.10.01 02:49:27] Skipping message, because it is already in blocks!

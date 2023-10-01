@@ -1,6 +1,9 @@
 from aiogram import Bot
 from aiogram.types import BotCommand, BotCommandScopeDefault
 
+
+# Установка команд пользователя
+
 async def set_commands(bot: Bot):
     commands = [
         BotCommand(
