@@ -1,5 +1,5 @@
 # Какие версии используем 
-Python version 3.10  CUDA VERSION 11.8
+Python version 3.10  CUDA VERSION 11.8 torch 2.0
 
 # INSTRUCTION FOR ML DEVELOPERS
 ```
