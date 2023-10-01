@@ -11,6 +11,8 @@ from telegram_bot.keyboards.restart import restart_kb
 from telegram_bot.keyboards.cancel_generation import cg_kb
 from telegram_bot.keyboards.menu import menu_kb
 from telegram_bot.keyboards.get_back import return_kb 
+from ml.answer import get_c
+from telegram_bot.utils.split import split_text
 import telegram_bot.callbacks.default_callbacks
 
 
@@ -48,7 +50,10 @@ async def handle_start_button(msg: Message, state: FSMContext):
 @router.message(UserState.answer_state, F.text)
 async def generate_answer(msg: Message, state: FSMContext):
     
-    # ans = your_function(msg.text) 
+    ans = get_c(msg.text) 
+    ans.replace("</s>", "").replace("<s>", "").replace("</unk>", "").replace("<unk>", "").\
+            replace("</n>", "").replace("<n>", "")
+    splitted_text = split_text(ans)
     
     await state.set_state(UserState.start_state)
     
@@ -56,7 +61,9 @@ async def generate_answer(msg: Message, state: FSMContext):
         "Подождите немного, я генерирую ответ... 🕐"
     )
     
-    await gen_msg.edit_text(f"answer")
+    await gen_msg.edit_text(f"<h1>Ответ: <h1>")
+    for i in range(len(splitted_text)):
+        await msg.answer(f"{splitted_text[i]}")
     
     await msg.answer("Нажмите на кнопку, чтобы начать заново или попробуйте задать похожий вопрос", reply_markup=restart_kb)
 
